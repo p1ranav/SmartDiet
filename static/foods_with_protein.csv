@@ -1,0 +1,501 @@
+name,category,calories,protein
+Apple,Fruit,52,0.3
+Banana,Fruit,89,1.1
+Orange,Fruit,47,0.9
+Mango,Fruit,60,0.8
+Pineapple,Fruit,50,0.5
+Grapes,Fruit,69,0.7
+Papaya,Fruit,43,0.5
+Watermelon,Fruit,30,0.6
+Strawberry,Fruit,33,0.8
+Blueberry,Fruit,57,0.7
+Carrot,Vegetable,41,0.9
+Broccoli,Vegetable,34,2.8
+Spinach,Vegetable,23,2.9
+Tomato,Vegetable,18,0.9
+Potato,Vegetable,77,2.0
+Cabbage,Vegetable,25,1.3
+Onion,Vegetable,40,1.1
+Garlic,Vegetable,149,6.4
+Peas,Vegetable,81,5.4
+Cauliflower,Vegetable,25,1.9
+Chicken Breast,Meat,165,31.0
+Beef,Meat,250,26.0
+Pork,Meat,242,25.0
+Lamb,Meat,294,25.6
+Turkey,Meat,189,29.0
+Duck,Meat,337,27.0
+Goat Meat,Meat,122,20.6
+Bacon,Meat,541,37.0
+Sausage,Meat,301,12.0
+Ham,Meat,145,21.0
+Milk,Dairy,42,3.4
+Cheese,Dairy,402,25.0
+Yogurt,Dairy,59,10.0
+Butter,Dairy,717,0.9
+Paneer,Dairy,265,18.0
+Curd,Dairy,61,3.1
+Cream,Dairy,340,2.1
+Kefir,Dairy,41,3.5
+Ice Cream,Dairy,207,3.5
+Condensed Milk,Dairy,321,7.9
+Green Tea,Beverage,0,0.0
+Black Coffee,Beverage,2,0.3
+Orange Juice,Beverage,45,0.7
+Apple Juice,Beverage,46,0.1
+Milkshake,Beverage,120,3.5
+Smoothie,Beverage,90,1.0
+Soda,Beverage,41,0.0
+Energy Drink,Beverage,45,0.0
+Beer,Beverage,43,0.5
+Wine,Beverage,85,0.1
+Boiled Egg,Egg,155,13.0
+Fried Egg,Egg,196,13.6
+Scrambled Egg,Egg,148,13.0
+Omelette,Egg,154,13.2
+Egg White,Egg,52,11.0
+Egg Yolk,Egg,322,15.9
+Duck Egg,Egg,185,13.0
+Quail Egg,Egg,158,13.0
+Poached Egg,Egg,143,12.5
+Raw Egg,Egg,143,12.6
+Banana Var 1,Fruit,93.5,1.2
+Orange Var 1,Fruit,49.4,0.9
+Mango Var 1,Fruit,63.0,0.8
+Pineapple Var 1,Fruit,52.5,0.5
+Grapes Var 1,Fruit,72.5,0.7
+Papaya Var 1,Fruit,45.1,0.5
+Watermelon Var 1,Fruit,31.5,0.6
+Strawberry Var 1,Fruit,34.6,0.8
+Blueberry Var 1,Fruit,59.9,0.7
+Carrot Var 1,Vegetable,43.1,0.9
+Broccoli Var 1,Vegetable,35.7,2.9
+Spinach Var 1,Vegetable,24.2,3.0
+Tomato Var 1,Vegetable,18.9,0.9
+Potato Var 1,Vegetable,80.9,2.1
+Cabbage Var 1,Vegetable,26.2,1.4
+Onion Var 1,Vegetable,42.0,1.2
+Garlic Var 1,Vegetable,156.5,6.7
+Peas Var 1,Vegetable,85.0,5.7
+Cauliflower Var 1,Vegetable,26.2,2.0
+Chicken Breast Var 1,Meat,173.2,32.6
+Beef Var 1,Meat,262.5,27.3
+Pork Var 1,Meat,254.1,26.2
+Lamb Var 1,Meat,308.7,26.9
+Turkey Var 1,Meat,198.5,30.5
+Duck Var 1,Meat,353.9,28.4
+Goat Meat Var 1,Meat,128.1,21.6
+Bacon Var 1,Meat,568.1,38.9
+Sausage Var 1,Meat,316.1,12.6
+Ham Var 1,Meat,152.2,22.1
+Milk Var 1,Dairy,44.1,3.6
+Cheese Var 1,Dairy,422.1,26.2
+Yogurt Var 1,Dairy,62.0,10.5
+Butter Var 1,Dairy,752.9,0.9
+Paneer Var 1,Dairy,278.2,18.9
+Curd Var 1,Dairy,64.0,3.3
+Cream Var 1,Dairy,357.0,2.2
+Kefir Var 1,Dairy,43.1,3.7
+Ice Cream Var 1,Dairy,217.4,3.7
+Condensed Milk Var 1,Dairy,337.1,8.3
+Green Tea Var 1,Beverage,0.0,0.0
+Black Coffee Var 1,Beverage,2.1,0.3
+Orange Juice Var 1,Beverage,47.2,0.7
+Apple Juice Var 1,Beverage,48.3,0.1
+Milkshake Var 1,Beverage,126.0,3.7
+Smoothie Var 1,Beverage,94.5,1.1
+Soda Var 1,Beverage,43.1,0.0
+Energy Drink Var 1,Beverage,47.2,0.0
+Beer Var 1,Beverage,45.1,0.5
+Wine Var 1,Beverage,89.2,0.1
+Boiled Egg Var 1,Egg,162.8,13.7
+Fried Egg Var 1,Egg,205.8,14.3
+Scrambled Egg Var 1,Egg,155.4,13.7
+Omelette Var 1,Egg,161.7,13.9
+Egg White Var 1,Egg,54.6,11.6
+Egg Yolk Var 1,Egg,338.1,16.7
+Duck Egg Var 1,Egg,194.2,13.7
+Quail Egg Var 1,Egg,165.9,13.7
+Poached Egg Var 1,Egg,150.2,13.1
+Raw Egg Var 1,Egg,150.2,13.2
+Apple Var 2,Fruit,54.6,0.3
+Banana Var 2,Fruit,93.5,1.2
+Orange Var 2,Fruit,49.4,0.9
+Mango Var 2,Fruit,63.0,0.8
+Pineapple Var 2,Fruit,52.5,0.5
+Grapes Var 2,Fruit,72.5,0.7
+Papaya Var 2,Fruit,45.1,0.5
+Watermelon Var 2,Fruit,31.5,0.6
+Strawberry Var 2,Fruit,34.6,0.8
+Blueberry Var 2,Fruit,59.9,0.7
+Carrot Var 2,Vegetable,43.1,0.9
+Broccoli Var 2,Vegetable,35.7,2.9
+Spinach Var 2,Vegetable,24.2,3.0
+Tomato Var 2,Vegetable,18.9,0.9
+Potato Var 2,Vegetable,80.9,2.1
+Cabbage Var 2,Vegetable,26.2,1.4
+Onion Var 2,Vegetable,42.0,1.2
+Garlic Var 2,Vegetable,156.5,6.7
+Peas Var 2,Vegetable,85.0,5.7
+Cauliflower Var 2,Vegetable,26.2,2.0
+Chicken Breast Var 2,Meat,173.2,32.6
+Beef Var 2,Meat,262.5,27.3
+Pork Var 2,Meat,254.1,26.2
+Lamb Var 2,Meat,308.7,26.9
+Turkey Var 2,Meat,198.5,30.5
+Duck Var 2,Meat,353.9,28.4
+Goat Meat Var 2,Meat,128.1,21.6
+Bacon Var 2,Meat,568.1,38.9
+Sausage Var 2,Meat,316.1,12.6
+Ham Var 2,Meat,152.2,22.1
+Milk Var 2,Dairy,44.1,3.6
+Cheese Var 2,Dairy,422.1,26.2
+Yogurt Var 2,Dairy,62.0,10.5
+Butter Var 2,Dairy,752.9,0.9
+Paneer Var 2,Dairy,278.2,18.9
+Curd Var 2,Dairy,64.0,3.3
+Cream Var 2,Dairy,357.0,2.2
+Kefir Var 2,Dairy,43.1,3.7
+Ice Cream Var 2,Dairy,217.4,3.7
+Condensed Milk Var 2,Dairy,337.1,8.3
+Green Tea Var 2,Beverage,0.0,0.0
+Black Coffee Var 2,Beverage,2.1,0.3
+Orange Juice Var 2,Beverage,47.2,0.7
+Apple Juice Var 2,Beverage,48.3,0.1
+Milkshake Var 2,Beverage,126.0,3.7
+Smoothie Var 2,Beverage,94.5,1.1
+Soda Var 2,Beverage,43.1,0.0
+Energy Drink Var 2,Beverage,47.2,0.0
+Beer Var 2,Beverage,45.1,0.5
+Wine Var 2,Beverage,89.2,0.1
+Boiled Egg Var 2,Egg,162.8,13.7
+Fried Egg Var 2,Egg,205.8,14.3
+Scrambled Egg Var 2,Egg,155.4,13.7
+Omelette Var 2,Egg,161.7,13.9
+Egg White Var 2,Egg,54.6,11.6
+Egg Yolk Var 2,Egg,338.1,16.7
+Duck Egg Var 2,Egg,194.2,13.7
+Quail Egg Var 2,Egg,165.9,13.7
+Poached Egg Var 2,Egg,150.2,13.1
+Raw Egg Var 2,Egg,150.2,13.2
+Apple Var 3,Fruit,54.6,0.3
+Banana Var 3,Fruit,93.5,1.2
+Orange Var 3,Fruit,49.4,0.9
+Mango Var 3,Fruit,63.0,0.8
+Pineapple Var 3,Fruit,52.5,0.5
+Grapes Var 3,Fruit,72.5,0.7
+Papaya Var 3,Fruit,45.1,0.5
+Watermelon Var 3,Fruit,31.5,0.6
+Strawberry Var 3,Fruit,34.6,0.8
+Blueberry Var 3,Fruit,59.9,0.7
+Carrot Var 3,Vegetable,43.1,0.9
+Broccoli Var 3,Vegetable,35.7,2.9
+Spinach Var 3,Vegetable,24.2,3.0
+Tomato Var 3,Vegetable,18.9,0.9
+Potato Var 3,Vegetable,80.9,2.1
+Cabbage Var 3,Vegetable,26.2,1.4
+Onion Var 3,Vegetable,42.0,1.2
+Garlic Var 3,Vegetable,156.5,6.7
+Peas Var 3,Vegetable,85.0,5.7
+Cauliflower Var 3,Vegetable,26.2,2.0
+Chicken Breast Var 3,Meat,173.2,32.6
+Beef Var 3,Meat,262.5,27.3
+Pork Var 3,Meat,254.1,26.2
+Lamb Var 3,Meat,308.7,26.9
+Turkey Var 3,Meat,198.5,30.5
+Duck Var 3,Meat,353.9,28.4
+Goat Meat Var 3,Meat,128.1,21.6
+Bacon Var 3,Meat,568.1,38.9
+Sausage Var 3,Meat,316.1,12.6
+Ham Var 3,Meat,152.2,22.1
+Milk Var 3,Dairy,44.1,3.6
+Cheese Var 3,Dairy,422.1,26.2
+Yogurt Var 3,Dairy,62.0,10.5
+Butter Var 3,Dairy,752.9,0.9
+Paneer Var 3,Dairy,278.2,18.9
+Curd Var 3,Dairy,64.0,3.3
+Cream Var 3,Dairy,357.0,2.2
+Kefir Var 3,Dairy,43.1,3.7
+Ice Cream Var 3,Dairy,217.4,3.7
+Condensed Milk Var 3,Dairy,337.1,8.3
+Green Tea Var 3,Beverage,0.0,0.0
+Black Coffee Var 3,Beverage,2.1,0.3
+Orange Juice Var 3,Beverage,47.2,0.7
+Apple Juice Var 3,Beverage,48.3,0.1
+Milkshake Var 3,Beverage,126.0,3.7
+Smoothie Var 3,Beverage,94.5,1.1
+Soda Var 3,Beverage,43.1,0.0
+Energy Drink Var 3,Beverage,47.2,0.0
+Beer Var 3,Beverage,45.1,0.5
+Wine Var 3,Beverage,89.2,0.1
+Boiled Egg Var 3,Egg,162.8,13.7
+Fried Egg Var 3,Egg,205.8,14.3
+Scrambled Egg Var 3,Egg,155.4,13.7
+Omelette Var 3,Egg,161.7,13.9
+Egg White Var 3,Egg,54.6,11.6
+Egg Yolk Var 3,Egg,338.1,16.7
+Duck Egg Var 3,Egg,194.2,13.7
+Quail Egg Var 3,Egg,165.9,13.7
+Poached Egg Var 3,Egg,150.2,13.1
+Raw Egg Var 3,Egg,150.2,13.2
+Apple Var 4,Fruit,54.6,0.3
+Banana Var 4,Fruit,93.5,1.2
+Orange Var 4,Fruit,49.4,0.9
+Mango Var 4,Fruit,63.0,0.8
+Pineapple Var 4,Fruit,52.5,0.5
+Grapes Var 4,Fruit,72.5,0.7
+Papaya Var 4,Fruit,45.1,0.5
+Watermelon Var 4,Fruit,31.5,0.6
+Strawberry Var 4,Fruit,34.6,0.8
+Blueberry Var 4,Fruit,59.9,0.7
+Carrot Var 4,Vegetable,43.1,0.9
+Broccoli Var 4,Vegetable,35.7,2.9
+Spinach Var 4,Vegetable,24.2,3.0
+Tomato Var 4,Vegetable,18.9,0.9
+Potato Var 4,Vegetable,80.9,2.1
+Cabbage Var 4,Vegetable,26.2,1.4
+Onion Var 4,Vegetable,42.0,1.2
+Garlic Var 4,Vegetable,156.5,6.7
+Peas Var 4,Vegetable,85.0,5.7
+Cauliflower Var 4,Vegetable,26.2,2.0
+Chicken Breast Var 4,Meat,173.2,32.6
+Beef Var 4,Meat,262.5,27.3
+Pork Var 4,Meat,254.1,26.2
+Lamb Var 4,Meat,308.7,26.9
+Turkey Var 4,Meat,198.5,30.5
+Duck Var 4,Meat,353.9,28.4
+Goat Meat Var 4,Meat,128.1,21.6
+Bacon Var 4,Meat,568.1,38.9
+Sausage Var 4,Meat,316.1,12.6
+Ham Var 4,Meat,152.2,22.1
+Milk Var 4,Dairy,44.1,3.6
+Cheese Var 4,Dairy,422.1,26.2
+Yogurt Var 4,Dairy,62.0,10.5
+Butter Var 4,Dairy,752.9,0.9
+Paneer Var 4,Dairy,278.2,18.9
+Curd Var 4,Dairy,64.0,3.3
+Cream Var 4,Dairy,357.0,2.2
+Kefir Var 4,Dairy,43.1,3.7
+Ice Cream Var 4,Dairy,217.4,3.7
+Condensed Milk Var 4,Dairy,337.1,8.3
+Green Tea Var 4,Beverage,0.0,0.0
+Black Coffee Var 4,Beverage,2.1,0.3
+Orange Juice Var 4,Beverage,47.2,0.7
+Apple Juice Var 4,Beverage,48.3,0.1
+Milkshake Var 4,Beverage,126.0,3.7
+Smoothie Var 4,Beverage,94.5,1.1
+Soda Var 4,Beverage,43.1,0.0
+Energy Drink Var 4,Beverage,47.2,0.0
+Beer Var 4,Beverage,45.1,0.5
+Wine Var 4,Beverage,89.2,0.1
+Boiled Egg Var 4,Egg,162.8,13.7
+Fried Egg Var 4,Egg,205.8,14.3
+Scrambled Egg Var 4,Egg,155.4,13.7
+Omelette Var 4,Egg,161.7,13.9
+Egg White Var 4,Egg,54.6,11.6
+Egg Yolk Var 4,Egg,338.1,16.7
+Duck Egg Var 4,Egg,194.2,13.7
+Quail Egg Var 4,Egg,165.9,13.7
+Poached Egg Var 4,Egg,150.2,13.1
+Raw Egg Var 4,Egg,150.2,13.2
+Apple Var 5,Fruit,54.6,0.3
+Banana Var 5,Fruit,93.5,1.2
+Orange Var 5,Fruit,49.4,0.9
+Mango Var 5,Fruit,63.0,0.8
+Pineapple Var 5,Fruit,52.5,0.5
+Grapes Var 5,Fruit,72.5,0.7
+Papaya Var 5,Fruit,45.1,0.5
+Watermelon Var 5,Fruit,31.5,0.6
+Strawberry Var 5,Fruit,34.6,0.8
+Blueberry Var 5,Fruit,59.9,0.7
+Carrot Var 5,Vegetable,43.1,0.9
+Broccoli Var 5,Vegetable,35.7,2.9
+Spinach Var 5,Vegetable,24.2,3.0
+Tomato Var 5,Vegetable,18.9,0.9
+Potato Var 5,Vegetable,80.9,2.1
+Cabbage Var 5,Vegetable,26.2,1.4
+Onion Var 5,Vegetable,42.0,1.2
+Garlic Var 5,Vegetable,156.5,6.7
+Peas Var 5,Vegetable,85.0,5.7
+Cauliflower Var 5,Vegetable,26.2,2.0
+Chicken Breast Var 5,Meat,173.2,32.6
+Beef Var 5,Meat,262.5,27.3
+Pork Var 5,Meat,254.1,26.2
+Lamb Var 5,Meat,308.7,26.9
+Turkey Var 5,Meat,198.5,30.5
+Duck Var 5,Meat,353.9,28.4
+Goat Meat Var 5,Meat,128.1,21.6
+Bacon Var 5,Meat,568.1,38.9
+Sausage Var 5,Meat,316.1,12.6
+Ham Var 5,Meat,152.2,22.1
+Milk Var 5,Dairy,44.1,3.6
+Cheese Var 5,Dairy,422.1,26.2
+Yogurt Var 5,Dairy,62.0,10.5
+Butter Var 5,Dairy,752.9,0.9
+Paneer Var 5,Dairy,278.2,18.9
+Curd Var 5,Dairy,64.0,3.3
+Cream Var 5,Dairy,357.0,2.2
+Kefir Var 5,Dairy,43.1,3.7
+Ice Cream Var 5,Dairy,217.4,3.7
+Condensed Milk Var 5,Dairy,337.1,8.3
+Green Tea Var 5,Beverage,0.0,0.0
+Black Coffee Var 5,Beverage,2.1,0.3
+Orange Juice Var 5,Beverage,47.2,0.7
+Apple Juice Var 5,Beverage,48.3,0.1
+Milkshake Var 5,Beverage,126.0,3.7
+Smoothie Var 5,Beverage,94.5,1.1
+Soda Var 5,Beverage,43.1,0.0
+Energy Drink Var 5,Beverage,47.2,0.0
+Beer Var 5,Beverage,45.1,0.5
+Wine Var 5,Beverage,89.2,0.1
+Boiled Egg Var 5,Egg,162.8,13.7
+Fried Egg Var 5,Egg,205.8,14.3
+Scrambled Egg Var 5,Egg,155.4,13.7
+Omelette Var 5,Egg,161.7,13.9
+Egg White Var 5,Egg,54.6,11.6
+Egg Yolk Var 5,Egg,338.1,16.7
+Duck Egg Var 5,Egg,194.2,13.7
+Quail Egg Var 5,Egg,165.9,13.7
+Poached Egg Var 5,Egg,150.2,13.1
+Raw Egg Var 5,Egg,150.2,13.2
+Apple Var 6,Fruit,54.6,0.3
+Banana Var 6,Fruit,93.5,1.2
+Orange Var 6,Fruit,49.4,0.9
+Mango Var 6,Fruit,63.0,0.8
+Pineapple Var 6,Fruit,52.5,0.5
+Grapes Var 6,Fruit,72.5,0.7
+Papaya Var 6,Fruit,45.1,0.5
+Watermelon Var 6,Fruit,31.5,0.6
+Strawberry Var 6,Fruit,34.6,0.8
+Blueberry Var 6,Fruit,59.9,0.7
+Carrot Var 6,Vegetable,43.1,0.9
+Broccoli Var 6,Vegetable,35.7,2.9
+Spinach Var 6,Vegetable,24.2,3.0
+Tomato Var 6,Vegetable,18.9,0.9
+Potato Var 6,Vegetable,80.9,2.1
+Cabbage Var 6,Vegetable,26.2,1.4
+Onion Var 6,Vegetable,42.0,1.2
+Garlic Var 6,Vegetable,156.5,6.7
+Peas Var 6,Vegetable,85.0,5.7
+Cauliflower Var 6,Vegetable,26.2,2.0
+Chicken Breast Var 6,Meat,173.2,32.6
+Beef Var 6,Meat,262.5,27.3
+Pork Var 6,Meat,254.1,26.2
+Lamb Var 6,Meat,308.7,26.9
+Turkey Var 6,Meat,198.5,30.5
+Duck Var 6,Meat,353.9,28.4
+Goat Meat Var 6,Meat,128.1,21.6
+Bacon Var 6,Meat,568.1,38.9
+Sausage Var 6,Meat,316.1,12.6
+Ham Var 6,Meat,152.2,22.1
+Milk Var 6,Dairy,44.1,3.6
+Cheese Var 6,Dairy,422.1,26.2
+Yogurt Var 6,Dairy,62.0,10.5
+Butter Var 6,Dairy,752.9,0.9
+Paneer Var 6,Dairy,278.2,18.9
+Curd Var 6,Dairy,64.0,3.3
+Cream Var 6,Dairy,357.0,2.2
+Kefir Var 6,Dairy,43.1,3.7
+Ice Cream Var 6,Dairy,217.4,3.7
+Condensed Milk Var 6,Dairy,337.1,8.3
+Green Tea Var 6,Beverage,0.0,0.0
+Black Coffee Var 6,Beverage,2.1,0.3
+Orange Juice Var 6,Beverage,47.2,0.7
+Apple Juice Var 6,Beverage,48.3,0.1
+Milkshake Var 6,Beverage,126.0,3.7
+Smoothie Var 6,Beverage,94.5,1.1
+Soda Var 6,Beverage,43.1,0.0
+Energy Drink Var 6,Beverage,47.2,0.0
+Beer Var 6,Beverage,45.1,0.5
+Wine Var 6,Beverage,89.2,0.1
+Boiled Egg Var 6,Egg,162.8,13.7
+Fried Egg Var 6,Egg,205.8,14.3
+Scrambled Egg Var 6,Egg,155.4,13.7
+Omelette Var 6,Egg,161.7,13.9
+Egg White Var 6,Egg,54.6,11.6
+Egg Yolk Var 6,Egg,338.1,16.7
+Duck Egg Var 6,Egg,194.2,13.7
+Quail Egg Var 6,Egg,165.9,13.7
+Poached Egg Var 6,Egg,150.2,13.1
+Raw Egg Var 6,Egg,150.2,13.2
+Apple Var 7,Fruit,54.6,0.3
+Banana Var 7,Fruit,93.5,1.2
+Orange Var 7,Fruit,49.4,0.9
+Mango Var 7,Fruit,63.0,0.8
+Pineapple Var 7,Fruit,52.5,0.5
+Grapes Var 7,Fruit,72.5,0.7
+Papaya Var 7,Fruit,45.1,0.5
+Watermelon Var 7,Fruit,31.5,0.6
+Strawberry Var 7,Fruit,34.6,0.8
+Blueberry Var 7,Fruit,59.9,0.7
+Carrot Var 7,Vegetable,43.1,0.9
+Broccoli Var 7,Vegetable,35.7,2.9
+Spinach Var 7,Vegetable,24.2,3.0
+Tomato Var 7,Vegetable,18.9,0.9
+Potato Var 7,Vegetable,80.9,2.1
+Cabbage Var 7,Vegetable,26.2,1.4
+Onion Var 7,Vegetable,42.0,1.2
+Garlic Var 7,Vegetable,156.5,6.7
+Peas Var 7,Vegetable,85.0,5.7
+Cauliflower Var 7,Vegetable,26.2,2.0
+Chicken Breast Var 7,Meat,173.2,32.6
+Beef Var 7,Meat,262.5,27.3
+Pork Var 7,Meat,254.1,26.2
+Lamb Var 7,Meat,308.7,26.9
+Turkey Var 7,Meat,198.5,30.5
+Duck Var 7,Meat,353.9,28.4
+Goat Meat Var 7,Meat,128.1,21.6
+Bacon Var 7,Meat,568.1,38.9
+Sausage Var 7,Meat,316.1,12.6
+Ham Var 7,Meat,152.2,22.1
+Milk Var 7,Dairy,44.1,3.6
+Cheese Var 7,Dairy,422.1,26.2
+Yogurt Var 7,Dairy,62.0,10.5
+Butter Var 7,Dairy,752.9,0.9
+Paneer Var 7,Dairy,278.2,18.9
+Curd Var 7,Dairy,64.0,3.3
+Cream Var 7,Dairy,357.0,2.2
+Kefir Var 7,Dairy,43.1,3.7
+Ice Cream Var 7,Dairy,217.4,3.7
+Condensed Milk Var 7,Dairy,337.1,8.3
+Green Tea Var 7,Beverage,0.0,0.0
+Black Coffee Var 7,Beverage,2.1,0.3
+Orange Juice Var 7,Beverage,47.2,0.7
+Apple Juice Var 7,Beverage,48.3,0.1
+Milkshake Var 7,Beverage,126.0,3.7
+Smoothie Var 7,Beverage,94.5,1.1
+Soda Var 7,Beverage,43.1,0.0
+Energy Drink Var 7,Beverage,47.2,0.0
+Beer Var 7,Beverage,45.1,0.5
+Wine Var 7,Beverage,89.2,0.1
+Boiled Egg Var 7,Egg,162.8,13.7
+Fried Egg Var 7,Egg,205.8,14.3
+Scrambled Egg Var 7,Egg,155.4,13.7
+Omelette Var 7,Egg,161.7,13.9
+Egg White Var 7,Egg,54.6,11.6
+Egg Yolk Var 7,Egg,338.1,16.7
+Duck Egg Var 7,Egg,194.2,13.7
+Quail Egg Var 7,Egg,165.9,13.7
+Poached Egg Var 7,Egg,150.2,13.1
+Raw Egg Var 7,Egg,150.2,13.2
+Apple Var 8,Fruit,54.6,0.3
+Banana Var 8,Fruit,93.5,1.2
+Orange Var 8,Fruit,49.4,0.9
+Mango Var 8,Fruit,63.0,0.8
+Pineapple Var 8,Fruit,52.5,0.5
+Grapes Var 8,Fruit,72.5,0.7
+Papaya Var 8,Fruit,45.1,0.5
+Watermelon Var 8,Fruit,31.5,0.6
+Strawberry Var 8,Fruit,34.6,0.8
+Blueberry Var 8,Fruit,59.9,0.7
+Carrot Var 8,Vegetable,43.1,0.9
+Broccoli Var 8,Vegetable,35.7,2.9
+Spinach Var 8,Vegetable,24.2,3.0
+Tomato Var 8,Vegetable,18.9,0.9
+Potato Var 8,Vegetable,80.9,2.1
+Cabbage Var 8,Vegetable,26.2,1.4
+Onion Var 8,Vegetable,42.0,1.2
+Garlic Var 8,Vegetable,156.5,6.7
+Peas Var 8,Vegetable,85.0,5.7
+Cauliflower Var 8,Vegetable,26.2,2.0
+Chicken Breast Var 8,Meat,173.2,32.6

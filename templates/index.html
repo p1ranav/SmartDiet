@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Diet Planner</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+    select, input, button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .plan {
+      margin-top: 20px;
+    }
+    .plan h3 {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Smart Diet Planner</h1>
+
+  <label for="weight">Enter your weight (kg):</label>
+  <input type="number" id="weight" placeholder="e.g. 70">
+
+  <label for="height">Enter your height (cm):</label>
+  <input type="number" id="height" placeholder="e.g. 170">
+
+  <label for="foods">Select foods you can eat:</label>
+  <select id="foods" multiple></select>
+
+  <button onclick="generatePlan()">Generate Diet Plan</button>
+
+  <div class="plan" id="result"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+  <script>
+    let foodSelect;
+    
+    async function loadFoods() {
+      const response = await fetch('/static/foods_with_protein.csv');
+      const text = await response.text();
+      const lines = text.trim().split('\n').slice(1); // skip header
+      const choices = [];
+
+      lines.forEach(line => {
+        const [name] = line.split(',');
+        choices.push({ value: name, label: name });
+      });
+
+      foodSelect = new Choices('#foods', {
+        removeItemButton: true,
+        choices: choices
+      });
+    }
+
+    async function generatePlan() {
+  const weight = parseFloat(document.getElementById('weight').value);
+  const height = parseFloat(document.getElementById('height').value);
+  const selectedOptions = Array.from(document.getElementById('foods').selectedOptions);
+  const selectedFoods = selectedOptions.map(opt => opt.value);
+
+  const response = await fetch('http://127.0.0.1:5000/diet-plan', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ weight, height, foods: selectedFoods })
+  });
+
+  const data = await response.json();
+  const result = document.getElementById('result');
+
+  result.innerHTML = `<h3>Target Protein: ${data.target_protein}g</h3><ol>` +
+    data.daily_schedule.map(meal => `<li>${meal}</li>`).join('') +
+    `</ol>`;
+}
+
+
+    loadFoods();
+  </script>
+</body>
+</html>
